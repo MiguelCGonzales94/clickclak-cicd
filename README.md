@@ -1,5 +1,3 @@
-# Herramientas para la Comunicación Efectiva - Sección 15443
-
 ## Parte 2: Caso de estudio y diseño de flujo CI/CD — ClickClak Solutions
 
 Este repositorio contiene la implementación funcional del pipeline CI/CD
