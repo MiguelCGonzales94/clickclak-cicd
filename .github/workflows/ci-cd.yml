@@ -47,6 +47,9 @@ jobs:
     needs: test
     runs-on: ubuntu-latest
     if: github.event_name == 'push'
+    defaults:
+      run:
+        working-directory: .
     steps:
       - uses: actions/checkout@v4
       - run: docker build -t clickclak-backend:${{ github.sha }} ./backend
